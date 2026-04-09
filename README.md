@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hi, I'm Yashaswi 👋
 
-<!--
-**yashaswisingh024-design/yashaswisingh024-design** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 B.E CSE Student  
+💻 Python & DSA Learner  
+🚀 Building real-world projects  
 
-Here are some ideas to get you started:
+## 🔧 Tech Stack
+- Python
+- C
+- Tkinter
+- Pandas, Matplotlib
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📌 Projects
+- 💱 Currency Converter
+- 📊 Iris Data Analysis
+- 🧠 DSA Programs
+
+## 📫 Connect
+- LinkedIn: www.linkedin.com/in/yashaswi-singh-167108385
