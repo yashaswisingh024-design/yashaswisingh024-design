@@ -1,19 +1,24 @@
-# Hi, I'm Yashaswi 👋
+# Hi, I'm Yashaswi Singh 👋
 
-🎓 B.E CSE Student  
-💻 Python & DSA Learner  
-🚀 Building real-world projects  
+🎓 B.E. Computer Science Engineering Student
+💻 Python Developer | DSA Learner
+🚀 Building real-world projects and improving problem-solving skills
 
-## 🔧 Tech Stack
-- Python
-- C
-- Tkinter
-- Pandas, Matplotlib
+## 🛠️ Tech Stack
+
+* Python
+* C
+* Tkinter
+* Pandas
+* Matplotlib
+* Git & GitHub
 
 ## 📌 Projects
-- 💱 Currency Converter
-- 📊 Iris Data Analysis
-- 🧠 DSA Programs
+
+* 💰 Expense Tracker
+* 💱 Currency Converter
+* 📊 Iris Data Analysis
 
 ## 📫 Connect
-- LinkedIn: www.linkedin.com/in/yashaswi-singh-167108385
+
+* LinkedIn: [www.linkedin.com/in/yashaswi-singh-167108385](http://www.linkedin.com/in/yashaswi-singh-167108385)
