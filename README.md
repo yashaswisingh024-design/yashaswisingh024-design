@@ -27,18 +27,13 @@
 </div>
 
 ###
-
 <br clear="both">
 
 <img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/snake-output/snake.svg" alt="Snake animation" />
 
 ###
 
-## 📌 Projects
 
-* 💰 Expense Tracker
-* 💱 Currency Converter
-* 📊 Iris Data Analysis
 
 ## 📫 Connect
 
