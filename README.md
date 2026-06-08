@@ -1,5 +1,5 @@
 # 💫 About Me:
-# Hi there, I'm Yashaswi Singh 👋<br><br>💻 B.E CS Student<br>🚀 Learning DSA, Web Development & <br>🌱 Building projects and exploring new technologies<br>📍 India<br>
+# Hi there, I'm Yashaswi Singh 👋<br><br>💻 B.E CS Student<br>🚀 Learning DSA & Web Development  <br>🌱 Building projects and exploring new technologies<br>📍 India<br>
 
 
 ## 🌐 Socials:
