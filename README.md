@@ -21,4 +21,19 @@
 
 * LinkedIn: [www.linkedin.com/in/yashaswi-singh-167108385](http://www.linkedin.com/in/yashaswi-singh-167108385)
 
+<!-- Snake Animation -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
+
+<div align="center">
+  
+### 𝚂𝚑𝚘𝚠 𝚜𝚘𝚖𝚎 ❤️ 𝚋𝚢 𝚜𝚝𝚊𝚛𝚛𝚒𝚗𝚐 𝚜𝚘𝚖𝚎 𝚘𝚏 𝚝𝚑𝚎 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜!
+
+</div>
+
+<p align="center">
+  <img src="pp.3.jpeg" width="100%" alt="Coding World">
+</p>
+
 
