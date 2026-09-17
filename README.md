@@ -62,24 +62,25 @@ Voice-first multilingual learning platform designed to make primary education mo
 
 ## 📊 GitHub Activity
 
-<p align="center">
-  <a href="https://github.com/yashaswisingh024-design">
-    🔗 View my GitHub repositories and contribution activity
-  </a>
-</p>
 <div align="center">
 
-<img src="./profile/stats.svg" height="180"/>
+<table>
+<tr>
+<td width="50%" align="center">
 
-<br><br>
+<img src="./profile/stats.svg" width="100%"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yashaswisingh024-design&theme=github-dark&hide_border=true" width="95%"/>
+</td>
 
+<td width="50%" align="center">
 
-<img src="./profile/top-langs.svg" height="180"/>
+<img src="./profile/top-langs.svg" width="100%"/>
+
+</td>
+</tr>
+</table>
 
 </div>
-
 ---
 
 ## 🌐 Connect With Me
