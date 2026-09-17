@@ -12,7 +12,13 @@
  
 # 📊 GitHub Stats:
 
-![](https://streak-stats.demolab.com/?user=yashaswisingh024-design&theme=dark&hide_border=false)<br/>
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=yashaswisingh024-design&show_icons=true&theme=dark&hide_border=false" height="180"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashaswisingh024-design&layout=compact&theme=dark&hide_border=false" height="180"/>
+
+</div>
 
 
 
