@@ -80,9 +80,6 @@ Voice-first multilingual learning platform designed to make primary education mo
 
 </div>
 
-
-
-</div>
 ---
 
 ## 🌐 Connect With Me
