@@ -16,8 +16,6 @@ I'm a Computer Engineering student passionate about building practical technolog
 - 🧠 Learning Data Structures & Algorithms
 - 🤖 Exploring Generative AI and applied AI
 - 🌐 Building responsive web applications
-- 🏆 Participating in hackathons and tech challenges
-- 📚 Preparing for GATE CSE 2028
 
 ---
 
