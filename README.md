@@ -67,6 +67,15 @@ Voice-first multilingual learning platform designed to make primary education mo
     🔗 View my GitHub repositories and contribution activity
   </a>
 </p>
+
+
+<div align="center">
+
+<img src="./profile/stats.svg" height="180"/>
+
+<img src="./profile/top-langs.svg" height="180"/>
+
+</div>
 ---
 
 ## 🌐 Connect With Me
