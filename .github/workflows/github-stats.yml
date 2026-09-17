@@ -16,13 +16,194 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Generate All-Time GitHub Stats
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&number_format=long&hide=contribs
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate all-time GitHub contributions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import json
+          import subprocess
+          import datetime
+
+          user = os.environ["GH_USER"]
+          current_year = datetime.date.today().year
+
+          query = """
+          query($login:String!, $from:DateTime!, $to:DateTime!) {
+            user(login:$login) {
+              contributionsCollection(from:$from, to:$to) {
+                contributionCalendar {
+                  totalContributions
+                }
+                totalCommitContributions
+                totalIssueContributions
+                totalPullRequestContributions
+              }
+            }
+          }
+          """
+
+          contributions = 0
+          commits = 0
+          issues = 0
+          prs = 0
+
+          # Calculate the real contribution total year-by-year.
+          for year in range(2015, current_year + 1):
+
+              start = f"{year}-01-01T00:00:00Z"
+              end = f"{year}-12-31T23:59:59Z"
+
+              result = subprocess.check_output([
+                  "gh", "api", "graphql",
+                  "-f", f"query={query}",
+                  "-F", f"login={user}",
+                  "-F", f"from={start}",
+                  "-F", f"to={end}"
+              ], text=True)
+
+              data = json.loads(result)
+              collection = data["data"]["user"]["contributionsCollection"]
+
+              contributions += collection["contributionCalendar"]["totalContributions"]
+              commits += collection["totalCommitContributions"]
+              issues += collection["totalIssueContributions"]
+              prs += collection["totalPullRequestContributions"]
+
+          # Get repository stars.
+          repos = json.loads(subprocess.check_output([
+              "gh", "api", f"users/{user}/repos?per_page=100"
+          ], text=True))
+
+          stars = sum(repo.get("stargazers_count", 0) for repo in repos)
+
+          os.makedirs("profile", exist_ok=True)
+
+          svg = f"""<svg xmlns="http://www.w3.org/2000/svg"
+          width="720" height="300" viewBox="0 0 720 300">
+
+          <rect width="720" height="300" rx="8" fill="#151515"/>
+
+          <text x="35" y="48"
+            fill="#ffffff"
+            font-family="Arial"
+            font-size="27"
+            font-weight="700">
+            {user}'s GitHub Activity
+          </text>
+
+          <text x="55" y="95"
+            fill="#6cf58d"
+            font-family="Arial"
+            font-size="24">★</text>
+
+          <text x="90" y="95"
+            fill="#a8a8a8"
+            font-family="Arial"
+            font-size="17"
+            font-weight="700">
+            All-Time Contributions:
+          </text>
+
+          <text x="570" y="95"
+            fill="#ffffff"
+            font-family="Arial"
+            font-size="20"
+            font-weight="700">
+            {contributions:,}
+          </text>
+
+          <text x="55" y="140"
+            fill="#6cf58d"
+            font-family="Arial"
+            font-size="24">↻</text>
+
+          <text x="90" y="140"
+            fill="#a8a8a8"
+            font-family="Arial"
+            font-size="17"
+            font-weight="700">
+            All-Time Commits:
+          </text>
+
+          <text x="570" y="140"
+            fill="#ffffff"
+            font-family="Arial"
+            font-size="20"
+            font-weight="700">
+            {commits:,}
+          </text>
+
+          <text x="55" y="185"
+            fill="#6cf58d"
+            font-family="Arial"
+            font-size="24">⑂</text>
+
+          <text x="90" y="185"
+            fill="#a8a8a8"
+            font-family="Arial"
+            font-size="17"
+            font-weight="700">
+            Pull Requests:
+          </text>
+
+          <text x="570" y="185"
+            fill="#ffffff"
+            font-family="Arial"
+            font-size="20"
+            font-weight="700">
+            {prs:,}
+          </text>
+
+          <text x="55" y="230"
+            fill="#6cf58d"
+            font-family="Arial"
+            font-size="24">★</text>
+
+          <text x="90" y="230"
+            fill="#a8a8a8"
+            font-family="Arial"
+            font-size="17"
+            font-weight="700">
+            Stars Earned:
+          </text>
+
+          <text x="570" y="230"
+            fill="#ffffff"
+            font-family="Arial"
+            font-size="20"
+            font-weight="700">
+            {stars:,}
+          </text>
+
+          <text x="55" y="275"
+            fill="#6cf58d"
+            font-family="Arial"
+            font-size="24">!</text>
+
+          <text x="90" y="275"
+            fill="#a8a8a8"
+            font-family="Arial"
+            font-size="17"
+            font-weight="700">
+            Issues:
+          </text>
+
+          <text x="570" y="275"
+            fill="#ffffff"
+            font-family="Arial"
+            font-size="20"
+            font-weight="700">
+            {issues:,}
+          </text>
+
+          </svg>"""
+
+          with open("profile/stats.svg", "w", encoding="utf-8") as f:
+              f.write(svg)
+          PY
 
       - name: Generate Top Languages
         uses: stats-organization/github-readme-stats-action@v2
@@ -37,5 +218,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "Update GitHub stats" || exit 0
+          git commit -m "Update all-time contribution stats" || exit 0
           git push
