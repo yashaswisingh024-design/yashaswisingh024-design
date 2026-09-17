@@ -64,13 +64,9 @@ Voice-first multilingual learning platform designed to make primary education mo
 
 <p align="center">
   <a href="https://github.com/yashaswisingh024-design">
-    <img src="https://github-readme-stats.vercel.app/api?username=yashaswisingh024-design&show_icons=true&theme=dark&hide_border=true&count_private=true" height="170"/>
-  </a>
-  <a href="https://github.com/yashaswisingh024-design">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashaswisingh024-design&layout=compact&theme=dark&hide_border=true&langs_count=6" height="170"/>
+    🔗 View my GitHub repositories and contribution activity
   </a>
 </p>
-
 ---
 
 ## 🌐 Connect With Me
