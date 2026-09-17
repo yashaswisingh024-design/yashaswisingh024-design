@@ -16,11 +16,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Generate GitHub Stats
+      - name: Generate All-Time GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&hide_border=true
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&number_format=long&hide=contribs
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
