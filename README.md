@@ -1,38 +1,91 @@
-# 💫 About Me:
-# Hi there, I'm Yashaswi Singh 👋<br><br>💻 B.E CS Student<br>🚀 Learning DSA & Web Development  <br>🌱 Building projects and exploring new technologies<br>📍 India<br>
+# 👋 Hi, I'm Yashaswi Singh
 
+🎓 B.E. Computer Engineering Student  
+💻 Exploring Software Development, AI & Data Structures  
+🚀 Building real-world projects and participating in hackathons  
+🌱 Currently learning DSA, Full-Stack Development & AI  
+📍 India
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/yashii.5129) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](http://www.linkedin.com/in/yashaswi-singh-167108385)
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:yashaswisingh024@gmail.com) 
+---
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+## 🚀 About Me
 
- 
-# 📊 GitHub Stats:
+I'm a Computer Engineering student passionate about building practical technology solutions.
 
-<div align="center">
+- 🔭 Building AI-powered and full-stack projects
+- 🧠 Learning Data Structures & Algorithms
+- 🤖 Exploring Generative AI and applied AI
+- 🌐 Building responsive web applications
+- 🏆 Participating in hackathons and tech challenges
+- 📚 Preparing for GATE CSE 2028
 
-<img src="https://github-readme-stats.vercel.app/api?username=yashaswisingh024-design&show_icons=true&theme=dark&hide_border=false" height="180"/>
+---
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashaswisingh024-design&layout=compact&theme=dark&hide_border=false" height="180"/>
+## 💻 Tech Stack
 
-</div>
+### Languages
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
+### Web Development
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
+### Data & AI
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
 
-## 📫 Connect
+### Tools & Cloud
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-* LinkedIn: [www.linkedin.com/in/yashaswi-singh-167108385](http://www.linkedin.com/in/yashaswi-singh-167108385)
+---
 
-<!-- Snake Animation -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
+## 🌟 Featured Projects
 
-<div align="center">
-  
+### 🤖 JanSetu AI
+AI-powered civic complaint platform that simplifies grievance reporting, classification and routing.
+
+### 🛣️ RoadSetu AI
+Smart road and pothole reporting platform with AI-powered analysis, location-based reporting and accountability tracking.
+
+### 🎓 CampusLoop
+AI-powered student marketplace for buying, selling, swapping and renting within college communities.
+
+### 🗣️ BhashaMitra AI
+Voice-first multilingual learning platform designed to make primary education more accessible in regional languages.
+
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <a href="https://github.com/yashaswisingh024-design">
+    <img src="https://github-readme-stats.vercel.app/api?username=yashaswisingh024-design&show_icons=true&theme=dark&hide_border=true&count_private=true" height="170"/>
+  </a>
+  <a href="https://github.com/yashaswisingh024-design">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashaswisingh024-design&layout=compact&theme=dark&hide_border=true&langs_count=6" height="170"/>
+  </a>
+</p>
+
+---
+
+## 🌐 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashaswi-singh-167108385)
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/yashii.5129)
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashaswisingh024@gmail.com)
+
+---
+
+⭐️ Thanks for visiting my profile!
 
 
 
