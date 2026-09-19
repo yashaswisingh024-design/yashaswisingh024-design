@@ -83,10 +83,6 @@ Voice-first multilingual learning platform designed to make primary education mo
 </div>
 ---
 
-## 📊 Contribution Activity
-
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=yashaswisingh024-design&bg_color=0d1117&color=9be9a8&line=39d353&point=ffffff&area=true&area_color=238636&hide_border=true&radius=16&custom_title=Yashaswi%27s%20GitHub%20Activity)](https://github.com/yashaswisingh024-design)
-
 
 ## 🌐 Connect With Me
 
